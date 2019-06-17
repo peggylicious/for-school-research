@@ -32,21 +32,21 @@ header label{
 }
 header  .nav-menu,
 header .logo{
-    margin: 0 13px;
-    top: 50%;
-    transform: translate(0, -50%);
+    bottom: 0;
     position: absolute;
 }
 header .nav-menu{
-    height: 48px;
-    width: 44px;
+    height: 47px;
+    width: 47px;
     background-color: green;
+    left: 13px;
 }
 header .logo{
     right: 0;
-    height: 38.77px;
-    width: 74px;
+    height: 48px;
+    width: 103px;
     background-color: red;
+    right: 13px;
 }
 
 .hero .hero-text{
