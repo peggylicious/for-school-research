@@ -14,7 +14,7 @@ input[type="checkbox"]{
 }
 .container .hero{
     background-color: blue;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
 }
@@ -42,7 +42,6 @@ header .nav-menu{
     left: 13px;
 }
 header .logo{
-    right: 0;
     height: 48px;
     width: 103px;
     background-color: red;
@@ -50,30 +49,63 @@ header .logo{
 }
 
 .hero .hero-text{
-    height: 200px;
+    height: 150px;
     width: 90%;
     position: absolute;
-    top: 146px;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, 0);
-    background-color: #fff;
+    background-color: grey;
 }
 
 .hero button{
     height: 44.73px;
     width: 138px;
     display: block;
-    /* position: absolute; */
-    margin: 414.01px auto 0 auto;
-    background-color: #fff;
-    /* margin: 0 auto; */
+    position: relative;
+    margin: 0 auto 0 auto;
+    top: 45%;
+    background-color: orange;
 }
 
-.hero .phone-contact{
+.hero .contact-phone{
     width: 110px;
     height: 47.71px;
     background-color: yellow;
     position: absolute;
     right: 11px;
     bottom: 42.65px;
+}
+
+/* Dept Finder */
+
+.container .dept-finder{
+    height: 1067px;
+    padding-top: 35px;
+
+    /* width: 100vw; */
+    background-color: red;
+}
+form{
+    /* margin-top: 35px; */
+}
+input[type="search"],
+input[type="button"]{
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="search"]{
+    border-width: 6px 13px;
+    border-color: white;
+    border-style: solid;
+    width: 338px;
+    height: 54.67px;
+    background-color: #f2f2f2;
+}
+
+input[type="button"]{
+    margin-top: 46.72px;
+    width: 338px;
+    height: 50.69px;
 }
